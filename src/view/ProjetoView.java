@@ -1,13 +1,10 @@
-// package com.example.projetomanagement.view;
-
-// import com.example.projetomanagement.controller.ProjetoController;
-// import com.example.projetomanagement.model.Projeto;
-
-import controller.ProjetoController;
-import model.Projeto;
 import java.time.LocalDate;
 import java.util.Scanner;
 
+/*
+ * View que interage com o usuário para gerenciar projetos.
+ * Menu simples no console para criar, listar, atualizar e deletar projetos.
+ */
 public class ProjetoView {
     private Scanner scanner = new Scanner(System.in);
     private ProjetoController controller = new ProjetoController();

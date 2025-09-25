@@ -52,14 +52,13 @@ public class Projeto {
     // exibir detalhes do projeto
     @Override
     public String toString() {
-        return "\nProjeto {" +
-                "id=" + id +
-                ", nome='" + nome + '\'' +
-                ", descricao='" + descricao + '\'' +
-                ", dataInicio=" + dataInicio +
-                ", dataFim=" + dataFim +
-                ", status=" + status +
-                ", gerente=" + gerente +
-                '}';
+        return "\nProjeto:" +
+                id + ' | ' +
+                nome + ' | ' +
+                descricao + ' | ' +
+                dataInicio + ' | ' +
+                dataFim + ' | ' +
+                status + ' | ' +
+                gerente;
     }
 }

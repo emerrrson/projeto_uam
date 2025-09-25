@@ -1,8 +1,3 @@
-// package com.example.projetomanagement.controller;
-
-// import com.example.projetomanagement.model.*;
-
-import model.*;
 import java.time.LocalDate;
 import java.util.List;
 

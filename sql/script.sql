@@ -33,3 +33,15 @@ CREATE TABLE IF NOT EXISTS equipe_usuario (
     FOREIGN KEY (equipe_id) REFERENCES equipe(id),
     FOREIGN KEY (usuario_id) REFERENCES usuario(id)
 );
+
+-- 
+CREATE TABLE IF NOT EXISTS projeto (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL,
+    descricao TEXT,
+    data_inicio DATE,
+    data_fim DATE,
+    status ENUM('PLANEJADO','EM_PROGRESSO','FINALIZADO','CANCELADO') NOT NULL,
+    gerente_id INT,
+    FOREIGN KEY (gerente_id) REFERENCES usuario(id)
+);
