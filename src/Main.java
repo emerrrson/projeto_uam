@@ -13,7 +13,7 @@ public class Main {
 
         int opcao;
         do {
-            System.out.println("\n=== Gerenciamento de Projetos ===");
+            System.out.println("\n=== Sistema de Gerenciamento de Projetos ===");
             System.out.println("1. Menu de Usuários");
             System.out.println("2. Menu de Equipes");
             System.out.println("3. Menu de Projetos");

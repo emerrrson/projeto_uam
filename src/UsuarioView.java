@@ -62,6 +62,6 @@ public class UsuarioView {
             }
         }
 
-        sc.close();
+        // sc.close();
     }
 }

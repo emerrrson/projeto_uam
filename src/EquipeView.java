@@ -13,7 +13,7 @@ public class EquipeView {
             System.out.println("2 - Listar equipes");
             System.out.println("0 - Sair");
             System.out.print("Opção: ");
-            String op = sc.nextLine();
+            String op = sc.nextLine().trim();
 
             if (op.equals("1")) {
                 System.out.print("Nome: ");
@@ -31,11 +31,13 @@ public class EquipeView {
                 }
 
             } else if (op.equals("0")) {
+                System.out.println("Saindo...");
                 break;
             } else {
                 System.out.println("Opção inválida.");
             }
         }
-        sc.close();
+
+        // sc.close();
     }
 }

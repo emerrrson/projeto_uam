@@ -13,12 +13,12 @@ public class ProjetoView {
     public void mostrarMenu() {
         int opcao;
         do {
-            System.out.println("\n=== Gerenciamento de Projetos ===");
-            System.out.println("1. Criar Projeto");
-            System.out.println("2. Listar Projetos");
-            System.out.println("3. Atualizar Status de Projeto");
-            System.out.println("4. Deletar Projeto");
-            System.out.println("0. Sair");
+            System.out.println("\n=== Cadastro de Projetos ===");
+            System.out.println("1 - Criar Projeto");
+            System.out.println("2 - Listar Projetos");
+            System.out.println("3 - Atualizar Status de Projeto");
+            System.out.println("4 - Deletar Projeto");
+            System.out.println("0 - Voltar ao Menu Principal");
             System.out.print("Escolha uma opção: ");
             opcao = scanner.nextInt();
             scanner.nextLine();
@@ -28,7 +28,7 @@ public class ProjetoView {
                 case 2 -> listarProjetos();
                 case 3 -> atualizarProjeto();
                 case 4 -> deletarProjeto();
-                case 0 -> System.out.println("Saindo...");
+                case 0 -> System.out.println("Voltando ao menu principal...");
                 default -> System.out.println("Opção Inválida.");
             }
         } while (opcao != 0);
@@ -36,7 +36,6 @@ public class ProjetoView {
 
     // Cria um novo projeto lendo os dados inseridos pelo usuário
     private void criarProjeto() {
-
         // lendo dados do projeto
         System.out.print("Nome: ");
         String nome = scanner.nextLine();

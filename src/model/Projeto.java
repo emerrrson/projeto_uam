@@ -53,12 +53,12 @@ public class Projeto {
     @Override
     public String toString() {
         return "\nProjeto:" +
-                id + ' | ' +
-                nome + ' | ' +
-                descricao + ' | ' +
-                dataInicio + ' | ' +
-                dataFim + ' | ' +
-                status + ' | ' +
+                id + " | " +
+                nome + " | " +
+                descricao + " | " +
+                dataInicio + " | " +
+                dataFim + " | " +
+                status + " | " +
                 gerente;
     }
 }
