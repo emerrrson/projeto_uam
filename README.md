@@ -2,10 +2,23 @@
 
 Projeto desenvolvido em **Java (JDK 17)** com **MySQL** para a disciplina de Análise e Desenvolvimento de Sistemas (2º semestre).
 
-## 🎯 Objetivo
-Implementar a parte **Cadastro de Usuários** do Sistema de Gestão de Projetos e Equipes, permitindo:
-- Inserir usuários com nome, CPF, e-mail, cargo, login, senha e perfil.
-- Listar usuários cadastrados no banco.
+## ⚙️ Funcionalidades
+
+### 1. Usuários
+- Nome, CPF, e-mail, cargo, login e senha.
+- Cada usuário tem um perfil: **Administrador**, **Gerente** ou **Colaborador**.
+- Inserção e listagem pelo console.
+
+### 2. Equipes
+- Nome da equipe e descrição.
+- Relação com usuários (membros) e projetos prevista no banco.
+- Inserção e listagem pelo console.
+
+### 3. Projetos
+- Nome, descrição, data de início, data de término prevista e status  
+  (planejado, em andamento, concluído ou cancelado).
+- Cada projeto possui um gerente (usuário responsável).
+- Inserção e listagem pelo console.
 
 ## 🛠️ Tecnologias
 - Java 17
@@ -23,5 +36,11 @@ Implementar a parte **Cadastro de Usuários** do Sistema de Gestão de Projetos 
 - `UsuarioDAO.java` – insere e lista usuários.
 - `Main.java` – interface de linha de comando para teste.
 
+
+
 ## 👥 Autores
-- Emerson Rodrigues e equipe da faculdade (2º semestre ADS)                           
+
+- Emerson
+- Igor
+- Luiz
+- Maykon                       
