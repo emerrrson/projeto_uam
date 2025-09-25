@@ -2,8 +2,8 @@ import java.util.List;
 import java.util.Scanner;
 
 // Menu simples para testar o cadastro de equipes
-public class MainEquipe {
-    public static void main(String[] args) {
+public class EquipeView {
+    public void mostrarMenu() {
         Scanner sc = new Scanner(System.in);
         EquipeDAO dao = new EquipeDAO();
 
