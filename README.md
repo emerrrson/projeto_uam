@@ -36,11 +36,9 @@ Projeto desenvolvido em **Java (JDK 17)** com **MySQL** para a disciplina de An�
 - `UsuarioDAO.java` – insere e lista usuários.
 - `Main.java` – interface de linha de comando para teste.
 
-
-
 ## 👥 Autores
 
-- Emerson
-- Igor
-- Luiz
-- Maykon                       
+- EMERSON DOS SANTOS RODRIGUES
+- IGOR BEZERRA DE OLIVEIRA
+- LUIZ CARLOS NASCIMENTO SILVA
+- MAYKON JEAN DE SOUZA MESSIAS                     
