@@ -29,10 +29,10 @@ Projeto desenvolvido em **Java (JDK 17)** com **MySQL** para a disciplina de An�
 1. Crie o banco de dados usando o script em [`script.sql`](script.sql).
 2. Ajuste usuário e senha do MySQL no arquivo `Conexao.java`:
 3. Altere a senha do usuário que será utilizado no banco de dados para garantir que seja a mesma utilizada no `Conexao.java`:
-        3.1. Execute o seguinte comando dentro do banco (exemplo utilizando usuário _root_): `ALTER USER 'root'@'localhost' IDENTIFIED WITH caching_sha2_password BY '1234';`
+    1. Execute o seguinte comando dentro do banco (exemplo utilizando usuário _root_): `ALTER USER 'root'@'localhost' IDENTIFIED WITH caching_sha2_password BY '1234';`
 4. Compile e execute `Main.java` (pode usar IntelliJ, NetBeans ou VSCode):
-        4.1. Para compilar: `javac -cp lib/mysql-connector-j-9.4.0.jar -d out src/*.java src/model/*.java src/controller/*.java src/view/*.java`
-        4.2. Para executar: `java -cp "out:lib/mysql-connector-j-9.4.0.jar" Main` (Linux) ou `java -cp "out;lib/mysql-connector-j-9.4.0.jar" Main` (Windows)
+    1. Para compilar: `javac -cp lib/mysql-connector-j-9.4.0.jar -d out src/*.java src/model/*.java src/controller/*.java src/view/*.java`
+    2. Para executar: `java -cp "out:lib/mysql-connector-j-9.4.0.jar" Main` (Linux) ou `java -cp "out;lib/mysql-connector-j-9.4.0.jar" Main` (Windows)
 
 ## 📂 Estrutura
 
